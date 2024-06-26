@@ -1,0 +1,123 @@
+/* Reset default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(a.webp);
+    /* display: inline; */
+ background-size: cover;
+ background-color: rgba(248, 243, 243, 0.5);
+
+  
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header {
+    background-color: rgb(251, 121, 121);
+    color: #fff;
+    padding: 1rem;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 1rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('') no-repeat center center/cover;
+    color: whitesmoke;
+    padding-top: 15px ;
+   /* display: flexbox; */
+} 
+.hero-content {
+    /* To center content vertically */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ensures content takes full height */
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+
+}
+
+.btn-primary {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    margin-top: 1rem;
+}
+
+.btn-secondary {
+    background-color: #FFC107;
+}
+
+.about, .curriculum,.signup {
+    padding: 1.8rem 0;
+    color:#020008;
+    font-weight: bold;
+}
+
+.about h2, .curriculum h2,  .signup h2 {
+    margin-bottom: 2rem;
+}
+
+.curriculum ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.curriculum li {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.footer {
+    background-color: green;
+    color: #fff;
+    padding: 1rem;
+    margin-top: 2rem;
+}
